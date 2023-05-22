@@ -1,0 +1,17 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "NodeJS Rest API Backend Service",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --coverage",
+    "start": "node server"
+  },
+  "keywords": [
+    "NodeJS",
+    "RestAPI",
+    "service"
+  ],
+  "author": "Igor Risteski",
+  "license": "MIT"
+}
