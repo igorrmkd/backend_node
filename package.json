@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "test": "jest --coverage",
-    "start": "node server"
+    "start": "nodemon server"
   },
   "keywords": [
     "NodeJS",
@@ -13,5 +13,13 @@
     "service"
   ],
   "author": "Igor Risteski",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22"
+  }
 }
